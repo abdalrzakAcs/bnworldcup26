@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1735"/>
+      <stop offset="1" stop-color="#070e23"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <circle cx="256" cy="240" r="190" fill="none" stroke="#2dd4bf" stroke-opacity="0.25" stroke-width="10"/>
+  <g transform="translate(256 250)">
+    <path d="M-90 -110 h180 v30 c0 70 -40 110 -90 118 c-50 -8 -90 -48 -90 -118 z" fill="url(#cup)"/>
+    <path d="M-90 -100 c-45 0 -60 20 -55 50 c5 32 35 50 65 48" fill="none" stroke="url(#cup)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M90 -100 c45 0 60 20 55 50 c-5 32 -35 50 -65 48" fill="none" stroke="url(#cup)" stroke-width="18" stroke-linecap="round"/>
+    <rect x="-16" y="36" width="32" height="44" fill="url(#cup)"/>
+    <rect x="-52" y="78" width="104" height="26" rx="8" fill="url(#cup)"/>
+    <text x="0" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="72" fill="#2dd4bf">26</text>
+  </g>
+</svg>
